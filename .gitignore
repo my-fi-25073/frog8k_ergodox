@@ -50,3 +50,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/frog_8k_ergodox_pcb/frog_8k_ergodox_pcb-backups
