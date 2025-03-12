@@ -3591,12 +3591,6 @@
 		(uuid "1affb5fe-db62-4330-bbdd-e372e7b13c95")
 	)
 	(junction
-		(at 74.93 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c4b455d-6604-430c-86ba-5ca1ad45a11e")
-	)
-	(junction
 		(at 144.78 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3649,12 +3643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ff9c9cb-0819-4e51-81b0-3550928f4c5a")
-	)
-	(junction
-		(at 100.33 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97d64b0b-2def-420e-81e5-38c865672c7d")
 	)
 	(junction
 		(at 144.78 128.27)
@@ -3859,16 +3847,6 @@
 			(type default)
 		)
 		(uuid "1e913916-2ae7-4261-aade-2bb65462e6fe")
-	)
-	(wire
-		(pts
-			(xy 74.93 186.69) (xy 100.33 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f0bcd6-8adf-45ee-89cc-f3fb4025f3c9")
 	)
 	(wire
 		(pts
@@ -4182,16 +4160,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 186.69) (xy 74.93 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c59138-87e8-40e5-8c05-9a4381b6e988")
-	)
-	(wire
-		(pts
 			(xy 144.78 119.38) (xy 144.78 120.65)
 		)
 		(stroke
@@ -4229,16 +4197,6 @@
 			(type default)
 		)
 		(uuid "9235316a-59ee-4b31-b601-bb9c55aa0c30")
-	)
-	(wire
-		(pts
-			(xy 73.66 203.2) (xy 77.47 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e4d26d-71e1-4c89-9383-ff022c1d9fac")
 	)
 	(wire
 		(pts
@@ -4312,16 +4270,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 200.66) (xy 74.93 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa5dd60-4ae3-44ce-b27d-081088302407")
-	)
-	(wire
-		(pts
 			(xy 49.53 269.24) (xy 49.53 267.97)
 		)
 		(stroke
@@ -4372,16 +4320,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 196.85) (xy 74.93 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4de241d-d606-4e21-88a7-3f01b70e3422")
-	)
-	(wire
-		(pts
 			(xy 40.64 208.28) (xy 50.8 208.28)
 		)
 		(stroke
@@ -4399,16 +4337,6 @@
 			(type default)
 		)
 		(uuid "ba75ad84-0d5f-4522-a4f4-9d1577459257")
-	)
-	(wire
-		(pts
-			(xy 74.93 200.66) (xy 77.47 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfcfeb20-8c1c-480d-b62a-f4e1636bb585")
 	)
 	(wire
 		(pts
@@ -4724,28 +4652,6 @@
 			)
 		)
 	)
-	(global_label "MOTION_{GPIO-PMW3360}"
-		(shape input)
-		(at 161.29 256.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "164a5cba-8687-4b15-9872-3346791e7202")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.192 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V_{IO}"
 		(shape input)
 		(at 30.48 241.3 180)
@@ -4770,7 +4676,7 @@
 	)
 	(global_label "CS_{GPIO-PMW3360}"
 		(shape input)
-		(at 194.31 218.44 0)
+		(at 194.31 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4780,7 +4686,7 @@
 		)
 		(uuid "29c81ad4-f916-4601-90db-f0870b708a23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.8722 218.44 0)
+			(at 211.8722 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,28 +4740,6 @@
 			)
 		)
 	)
-	(global_label "MOTION_{GPIO-PMW3360}"
-		(shape input)
-		(at 77.47 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a90b4f8-d53f-4abd-a6fc-686cc1521cfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.568 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DP"
 		(shape input)
 		(at 48.26 147.32 0)
@@ -4880,7 +4764,7 @@
 	)
 	(global_label "MOSI_{GPIO-PMW3360}"
 		(shape input)
-		(at 194.31 213.36 0)
+		(at 194.31 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4890,29 +4774,7 @@
 		)
 		(uuid "6a20d6f3-a501-4d5a-888f-caad5b4cc1a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9889 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST_{GPIO-PMW3360}"
-		(shape input)
-		(at 77.47 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b9f2cea-2d5c-405b-ba90-f4636a991902")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9998 200.66 0)
+			(at 213.9889 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,46 +4806,24 @@
 			)
 		)
 	)
-	(global_label "RST_{GPIO-PMW3360}"
-		(shape input)
-		(at 161.29 254 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a85dab5-7a0d-483a-b43e-3df9a94943a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.7602 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO_{GPIO-PMW3360}"
 		(shape input)
-		(at 161.29 259.08 180)
+		(at 194.31 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9da93f91-7c17-44e9-925c-06f8b1b834b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6111 259.08 0)
+			(at 213.9889 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5034,7 +4874,7 @@
 	)
 	(global_label "SCLK_{GPIO-PMW3360}"
 		(shape input)
-		(at 194.31 215.9 0)
+		(at 194.31 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5044,7 +4884,7 @@
 		)
 		(uuid "d0456003-a960-4c78-8992-a2620b48e0f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.1703 215.9 0)
+			(at 214.1703 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,76 +6743,6 @@
 			(project "frog_8k_ergodox_pcb"
 				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7ea1aecd-b108-470a-aa94-206eb46da886")
-		(property "Reference" "R1"
-			(at 77.47 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R1_10k"
-			(at 77.47 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 73.152 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9259b57f-c526-4978-bb35-f6f4b8e2da42")
-		)
-		(pin "1"
-			(uuid "ee7df63a-ceca-44d0-afee-7d5b0549f643")
-		)
-		(instances
-			(project ""
-				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
-					(reference "R1")
 					(unit 1)
 				)
 			)
