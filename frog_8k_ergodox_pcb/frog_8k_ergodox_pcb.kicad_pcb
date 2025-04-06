@@ -4549,7 +4549,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "38d0d4af-8ade-4b63-bcf6-dd296fe3a21a")
-		(at 344.6575 148.1975)
+		(at 339.077 148.1975)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H1"
@@ -4564,7 +4564,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 0)
+			(at -0.077 3.8025 0)
 			(layer "F.Fab")
 			(uuid "2e064521-8d3f-4573-805d-021542e4256f")
 			(effects
@@ -26107,7 +26107,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "fc919ac7-a472-4184-8ae4-cbe374104312")
-		(at 364.6575 148.1975)
+		(at 370.238 148.1975)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "H2"
@@ -57756,7 +57756,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "B.SilkS")
 			(uuid "db3bd7fd-ee2b-4d00-90aa-99afb736977e")
 			(effects
@@ -57768,7 +57768,7 @@
 			)
 		)
 		(property "Value" "XC6206PxxxMR"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "5a232c31-fc96-4201-b101-c66c369a6e3d")
 			(effects
@@ -57969,7 +57969,7 @@
 			(uuid "da183aa9-63b0-4675-bf9c-c51c8bdd0376")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "86cae7a7-6749-4062-ad48-7b4265dde125")
 			(effects
@@ -64349,6 +64349,17 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 354.6575 148.1975)
+		(end 374.6575 148.1975)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3a183d43-f6a3-4863-802b-183d6d596fe1")
+	)
 	(gr_line
 		(start 354.6575 186.2975)
 		(end 354.6575 105.335)
@@ -64360,8 +64371,8 @@
 		(uuid "c9de146f-9eab-457f-ac89-f95bdfe547ae")
 	)
 	(gr_line
-		(start 367.095 148.1975)
-		(end 340.595 148.1975)
+		(start 370.238 148.1975)
+		(end 339.077 148.1975)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -64578,6 +64589,13 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f43f2cdb-321b-43f4-bcbc-b4f27f609fec")
+	)
+	(group ""
+		(uuid "32bb31ab-fb89-495d-b723-4d5efb7b1569")
+		(members "38d0d4af-8ade-4b63-bcf6-dd296fe3a21a" "3a183d43-f6a3-4863-802b-183d6d596fe1"
+			"9d981614-73e0-4a59-9069-e09fc043286f" "c9de146f-9eab-457f-ac89-f95bdfe547ae"
+			"dc612385-4556-4ffc-97e3-922699310971" "fc919ac7-a472-4184-8ae4-cbe374104312"
+		)
 	)
 	(group ""
 		(uuid "a75a77da-b71d-48b4-be0d-d966b4b28ecb")
