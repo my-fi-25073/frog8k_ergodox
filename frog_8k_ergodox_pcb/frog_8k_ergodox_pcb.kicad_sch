@@ -1435,23 +1435,24 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse_Small"
+		(symbol "Device:Polyfuse_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at 0 -1.524 0)
+				(at -1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1459,11 +1460,12 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -1476,7 +1478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse, small symbol"
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1485,7 +1487,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "fuse"
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1494,7 +1496,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*Fuse*"
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1503,10 +1505,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fuse_Small_0_1"
+			(symbol "Polyfuse_Small_0_1"
 				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1517,7 +1519,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1528,10 +1542,10 @@
 					)
 				)
 			)
-			(symbol "Fuse_Small_1_1"
+			(symbol "Polyfuse_Small_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.635)
 					(name "~"
 						(effects
 							(font
@@ -1548,8 +1562,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.635)
 					(name "~"
 						(effects
 							(font
@@ -16754,6 +16768,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 369.57 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47db561c-77da-4f42-b086-08ee9cd564f0")
+		(property "Reference" "F1"
+			(at 369.57 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 369.57 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 374.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70076"
+			(at 369.57 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeacb503-0de4-4a92-8251-d9c2f35d7fbe")
+		)
+		(pin "2"
+			(uuid "3b614f48-e5c2-4343-8b28-290672956268")
+		)
+		(instances
+			(project "frog_8k_ergodox_pcb"
+				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 184.15 71.12 90)
 		(unit 1)
@@ -22969,74 +23061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 369.57 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c24c52-84d3-4445-a771-a8c21524493d")
-		(property "Reference" "F1"
-			(at 369.57 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse_500mA"
-			(at 369.57 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 369.57 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 369.57 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 369.57 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8147c7d8-70f3-43e0-b99c-a2031f836806")
-		)
-		(pin "2"
-			(uuid "124212a6-b2ee-4dc2-b53c-2bec3c5c4775")
-		)
-		(instances
-			(project ""
-				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 275.59 157.48 90)
 		(unit 1)
@@ -28063,7 +28087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad"
 			(at 331.47 110.49 0)
 			(effects
 				(font
