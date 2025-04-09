@@ -12709,7 +12709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PMW3360_PCB:16pin‐DIP(PMW3360DM-T2QU)"
+		(property "Footprint" "pmw3360:PMW3360DM-T2QU 16Pin"
 			(at 257.81 284.48 0)
 			(effects
 				(font
