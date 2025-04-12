@@ -6364,6 +6364,14 @@
 		(uuid "3e87debe-5378-424a-80c5-1789d2f1b75c")
 	)
 	(no_connect
+		(at 326.39 77.47)
+		(uuid "72b79f09-ce3e-4fdd-8e36-55b041e93125")
+	)
+	(no_connect
+		(at 334.01 77.47)
+		(uuid "c5269db9-bc8e-4ef9-8fa7-10f12c0268bb")
+	)
+	(no_connect
 		(at 270.51 261.62)
 		(uuid "cdd41849-94e1-41aa-9946-e9e9649cdc3f")
 	)
@@ -9630,6 +9638,18 @@
 		(uuid e1dff400-7401-45bf-a40f-cb230be789ea)
 	)
 	(rectangle
+		(start 323.85 60.96)
+		(end 365.76 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb0f94de-4a5c-4091-abb4-639e4709f8a1)
+	)
+	(rectangle
 		(start 212.09 237.49)
 		(end 299.72 284.48)
 		(stroke
@@ -9640,6 +9660,18 @@
 			(type none)
 		)
 		(uuid edd73830-0a85-477c-9b9f-8d6274c1fa6e)
+	)
+	(rectangle
+		(start 365.76 60.96)
+		(end 407.67 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f53d7c35-2d3e-40fb-b5a6-2e2b1616adf5)
 	)
 	(text "TrackBall Housing\nMounting Hole, M2"
 		(exclude_from_sim no)
@@ -9729,6 +9761,17 @@
 		)
 		(uuid "5919de63-12e8-464b-9efa-4b093a8a6359")
 	)
+	(text "Additional Resistor"
+		(exclude_from_sim no)
+		(at 325.12 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d83d1da-7060-428f-a7a9-d971113cc13c")
+	)
 	(text "MCU STM32F072CBT6"
 		(exclude_from_sim no)
 		(at 55.88 182.88 0)
@@ -9772,6 +9815,17 @@
 			(justify left)
 		)
 		(uuid "bddf9a5d-efcc-46ec-832b-a842f59063fb")
+	)
+	(text "Additional Capacitor"
+		(exclude_from_sim no)
+		(at 367.03 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7438dd2-dc0c-47de-bf7d-572594434e0c")
 	)
 	(text "Boot Switch\n"
 		(exclude_from_sim no)
@@ -23972,6 +24026,75 @@
 			(project "frog_8k_ergodox_pcb"
 				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
 					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 330.2 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b51e365b-6582-474d-9ded-111ddaaf1ecd")
+		(property "Reference" "R4"
+			(at 335.28 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R1_10k"
+			(at 335.28 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 330.2 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 330.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f1afcbd-cee8-4be7-9024-ebcafa68fc28")
+		)
+		(pin "2"
+			(uuid "75d00798-c834-4f7b-acd2-7ed8cdc3736e")
+		)
+		(instances
+			(project "frog_8k_ergodox_pcb"
+				(path "/34ddd234-11af-4a66-9186-ea72bce9a0a9"
+					(reference "R4")
 					(unit 1)
 				)
 			)
