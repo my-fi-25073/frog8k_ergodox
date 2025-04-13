@@ -24,3 +24,15 @@
 // #define POINTING_DEVICE_TASK_THROTTLE_MS 10
 
 // https://docs.qmk.fm/features/pointing_device
+
+
+// Addintion GPIO Pins for keyboard 
+
+// ADD0 - F1 
+// ADD1 - F0
+// ADD2 - A0
+// ADD3 - C15
+// ADD4 - A1
+// ADD5 - C14
+// ADD6 - A2
+// ADD7 - C13
