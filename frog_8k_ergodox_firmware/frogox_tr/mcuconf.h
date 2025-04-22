@@ -19,8 +19,6 @@
 #include_next <mcuconf.h>
 
 // Match to the data sheet & schematics
-
-
 #undef SPI_DRIVER
 #define SPI_DRIVER SPID1
 
